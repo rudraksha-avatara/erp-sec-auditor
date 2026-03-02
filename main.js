@@ -27,7 +27,7 @@ const net = require("net");
 const ALLOWED_PUBLIC_SUFFIXES = ["erp.itisuniqueofficial.com"]; // add your own allowlisted public suffixes here (use with caution, only on systems you own/have permission to test)
 
 // Safety limits (cannot be disabled)
-const HARD_MAX_TRIES = 100000;
+const HARD_MAX_TRIES = 10000;
 const MIN_PACING_MS = 250; // small non-zero guard
 const MAX_TIMEOUT_MS = 30_000;
 
