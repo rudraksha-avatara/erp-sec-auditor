@@ -23,7 +23,7 @@ It helps you test authentication flow, lockout policy, error leakage, and loggin
 
 ```
 erp-sec-auditor/
- ├── erp-sec-auditor.js   # main tool
+ ├── main.js   # main tool
  ├── passwords.txt        # test passwords list
  ├── erp-attempts.json    # final report
  ├── erp-attempts.ndjson  # live attempt logs
@@ -82,7 +82,7 @@ No spaces or blank lines.
 # ▶️ Run Command (One Line)
 
 ```
-node erp-sec-auditor.js run --base https://erp.itisuniqueofficial.com --login-path /login.htm --auth-path /j_spring_security_check --user-field j_username --pass-field j_password --username test@itisuniqueofficial.com --password-file passwords.txt --out erp-attempts.json --ndjson erp-attempts.ndjson --max-tries 50 --timeout-ms 8000 --retries 1 --stop-on-success 1 --show-body 0
+node main.js run --base https://erp.itisuniqueofficial.com --login-path /login.htm --auth-path /j_spring_security_check --user-field j_username --pass-field j_password --username test@itisuniqueofficial.com --password-file passwords.txt --out erp-attempts.json --ndjson erp-attempts.ndjson --max-tries 1000 --timeout-ms 1000 --retries 1 --stop-on-success 1 --show-body 0
 ```
 
 ---
@@ -168,8 +168,10 @@ Limit: 5 requests/min per IP
 # 👨‍💻 Author
 
 Created for **Jaydatt Khodave**
+
 Full‑Stack Developer • Automation Engineer • Security Researcher
-Website: [https://itisuniqueofficial.com](https://itisuniqueofficial.com)
+
+Website: [https://www.itisuniqueofficial.com](https://www.itisuniqueofficial.com)
 
 ---
 
