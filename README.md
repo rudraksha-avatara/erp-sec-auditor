@@ -8,14 +8,14 @@ It helps you test authentication flow, lockout policy, error leakage, and loggin
 
 # 🚀 Features
 
-✅ Spring Security login support (`/login.htm` → `/j_spring_security_check`)
-✅ Cookie & session handling
-✅ CSRF hidden field auto-detection
-✅ JSON + NDJSON live logging
-✅ Success / failure detection using redirect URL
-✅ Password hashing in logs (no plaintext leak)
-✅ Suspicious response detection (SQL errors / 5xx)
-✅ Safe caps to prevent brute‑force misuse
+- ✅ Spring Security login support (`/login.htm` → `/j_spring_security_check`)
+- ✅ Cookie & session handling
+- ✅ CSRF hidden field auto-detection
+- ✅ JSON + NDJSON live logging
+- ✅ Success / failure detection using redirect URL
+- ✅ Password hashing in logs (no plaintext leak)
+- ✅ Suspicious response detection (SQL errors / 5xx)
+- ✅ Safe caps to prevent brute‑force misuse
 
 ---
 
