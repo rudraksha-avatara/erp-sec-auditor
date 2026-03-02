@@ -19,6 +19,12 @@ It helps you test authentication flow, lockout policy, error leakage, and loggin
 
 ---
 
+# Quick Note
+
+Replace ```const ALLOWED_PUBLIC_SUFFIXES = ["erp.itisuniqueofficial.com"]``` replace erp domain with your erp url domain.
+
+---
+
 # 📁 Folder Structure
 
 ```
