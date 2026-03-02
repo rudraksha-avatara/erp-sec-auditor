@@ -21,7 +21,28 @@ It helps you test authentication flow, lockout policy, error leakage, and loggin
 
 # Quick Note
 
-Replace ```const ALLOWED_PUBLIC_SUFFIXES = ["erp.itisuniqueofficial.com"]``` replace erp domain with your erp url domain.
+Replace the following line in your `main.js` file with your own ERP URL domain:
+
+```js
+const ALLOWED_PUBLIC_SUFFIXES = ["erp.itisuniqueofficial.com"];
+```
+
+Update it by replacing **`erp.itisuniqueofficial.com`** with your actual ERP domain.
+
+### Example:
+
+If your ERP domain is `erp.yourdomain.com`, then it should look like this:
+
+```js
+const ALLOWED_PUBLIC_SUFFIXES = ["erp.yourdomain.com"];
+```
+
+⚠️ Make sure:
+
+* Only the domain name is changed.
+* The format remains the same.
+* Keep the quotation marks and brackets unchanged.
+
 
 ---
 
