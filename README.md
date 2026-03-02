@@ -59,7 +59,7 @@ cd erp-sec-auditor
 Add file:
 
 ```
-erp-sec-auditor.js
+main.js
 ```
 
 ---
